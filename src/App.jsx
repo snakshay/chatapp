@@ -12,7 +12,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 
 
-const socket = io.connect('http://localhost:8090');
+const socket = io.connect('https://git.heroku.com/chatapp-snakshay.git');
 
 const darkTheme = createTheme(theme);
 
