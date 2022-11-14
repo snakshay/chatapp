@@ -12,7 +12,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 
 
-const socket = io.connect('https://upset-dove-outfit.cyclic.app/');
+const socket = io.connect('https://upset-dove-outfit.cyclic.app/',{path: "/chat/"});
 
 const darkTheme = createTheme(theme);
 
